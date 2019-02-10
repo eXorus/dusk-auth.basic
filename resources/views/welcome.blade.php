@@ -79,10 +79,12 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content" id="app">
                 <div class="title m-b-md">
                     Laravel
                 </div>
+
+                <example-component dusk="example-component"></example-component>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
@@ -94,5 +96,6 @@
                 </div>
             </div>
         </div>
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
